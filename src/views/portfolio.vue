@@ -20,7 +20,7 @@
               </div>
               <div class="portfolio-links">
                 <!-- <a :href="item.link" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a> -->
-                <a :href="item.link" :title="item.title"><i class="bi bi-plus-square"></i></a>
+                <a @click="goToSite(item.link)" :title="item.title" class="pLink"><i class="bi bi-plus-square"></i></a>
               </div>
             </div>
           </div>
@@ -86,6 +86,9 @@ export default {
 };
 </script>
 <style lang="scss">
+.pLink{
+  cursor: pointer;
+}
 .portfolio .portfolio-wrap .portfolio-links a:hover{
   color: #0563bb !important;
 }

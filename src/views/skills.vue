@@ -38,19 +38,19 @@ export default {
         },
         {
           name: 'CSS3, SCSS, Bootstrap',
-          maxValue: 80,
+          maxValue: 85,
           skill: 0,
           unique: 'scss'
         },
         {
           name: 'JavaScript',
-          maxValue: 80,
+          maxValue: 70,
           skill: 0,
           unique: 'js'
         },
         {
           name: 'Vue, Vue Router, Vuex, Nuxt',
-          maxValue: 65,
+          maxValue: 80,
           skill: 0,
           unique: 'vue'
         },

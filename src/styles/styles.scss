@@ -3,6 +3,8 @@ body{
     padding: 0;
 }
 
+$colorB: #0563bb;
+
 /**
 * Template Name: Lonely - v4.10.0
 * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
@@ -19,12 +21,12 @@ body {
   }
   
   a {
-    color: #d43076;
+    color: $colorB;
     text-decoration: none;
   }
   
   a:hover {
-    color: #dd5a92;
+    color: $colorB;
     text-decoration: none;
   }
   
@@ -47,7 +49,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 9999;
-    background: #d43076;
+    background: $colorB;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -61,7 +63,7 @@ body {
   }
   
   .back-to-top:hover {
-    background: #db528c;
+    background: $colorB;
     color: #fff;
   }
   
@@ -153,7 +155,7 @@ body {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #d43076;
+    color: $colorB;
   }
   
   .navbar .dropdown ul {
@@ -188,7 +190,7 @@ body {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #d43076;
+    color: $colorB;
   }
   
   .navbar .dropdown:hover>ul {
@@ -287,7 +289,7 @@ body {
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
-    color: #d43076;
+    color: $colorB;
   }
   
   .navbar-mobile .getstarted,
@@ -322,7 +324,7 @@ body {
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover>a {
-    color: #d43076;
+    color: $colorB;
   }
   
   .navbar-mobile .dropdown>.dropdown-active {
@@ -365,7 +367,7 @@ body {
   
   #hero .btn-get-started:hover {
     padding-top: 10px;
-    color: #d43076;
+    color: $colorB;
   }
   
   @media (min-width: 1024px) {
@@ -417,7 +419,7 @@ body {
     display: block;
     width: 50px;
     height: 3px;
-    background: #d43076;
+    background: $colorB;
     bottom: 0;
     left: 0;
   }
@@ -499,7 +501,7 @@ body {
   .about .content .count-box i {
     display: block;
     font-size: 36px;
-    color: #eeafca;
+    color: #72a1cd;
     float: left;
     line-height: 0;
   }
@@ -590,7 +592,7 @@ body {
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #dd5a92;
+    background-color: $colorB;
   }
   
   /*--------------------------------------------------------------
@@ -608,7 +610,7 @@ body {
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #d43076;
+    border-left: 2px solid $colorB;
     position: relative;
   }
   
@@ -651,7 +653,7 @@ body {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #d43076;
+    border: 2px solid $colorB;
   }
   
   /*--------------------------------------------------------------
@@ -681,7 +683,7 @@ body {
   }
   
   .services .icon-box:hover::before {
-    background: #d43076;
+    background: $colorB;
     height: 100%;
     border-radius: 0px;
   }
@@ -694,7 +696,7 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background: #d43076;
+    background: $colorB;
     transition: all 0.3s ease-in-out;
   }
   
@@ -730,7 +732,7 @@ body {
   }
   
   .services .icon-box:hover .icon i {
-    color: #d43076;
+    color: $colorB;
   }
   
   @media (max-width: 768px) {
@@ -772,7 +774,7 @@ body {
   
   .portfolio #portfolio-flters li:hover,
   .portfolio #portfolio-flters li.filter-active {
-    color: #d43076;
+    color: $colorB;
   }
   
   .portfolio #portfolio-flters li:last-child {
@@ -842,7 +844,7 @@ body {
   }
   
   .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #e684ae;
+    color: #72a1cd;
   }
   
   .portfolio .portfolio-wrap:hover::before {
@@ -884,11 +886,11 @@ body {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #d43076;
+    border: 1px solid $colorB;
   }
   
   .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #d43076;
+    background-color: $colorB;
   }
   
   .portfolio-details .portfolio-info {
@@ -1005,11 +1007,11 @@ body {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #d43076;
+    border: 1px solid $colorB;
   }
   
   .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #d43076;
+    background-color: $colorB;
   }
   
   @media (max-width: 767px) {
@@ -1029,7 +1031,7 @@ body {
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #d43076;
+    color: $colorB;
   }
   
   .contact .contact-about p {
@@ -1047,7 +1049,7 @@ body {
     font-size: 18px;
     display: inline-block;
     background: #fff;
-    color: #d43076;
+    color: $colorB;
     line-height: 0;
     padding: 8px 0;
     margin-right: 4px;
@@ -1056,11 +1058,11 @@ body {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-    border: 1px solid #d43076;
+    border: 1px solid $colorB;
   }
   
   .contact .social-links a:hover {
-    background: #d43076;
+    background: $colorB;
     color: #fff;
   }
   
@@ -1070,7 +1072,7 @@ body {
   
   .contact .info i {
     font-size: 32px;
-    color: #d43076;
+    color: $colorB;
     line-height: 0;
     margin-right: 15px;
   }
@@ -1083,7 +1085,7 @@ body {
   .contact .php-email-form .error-message {
     display: none;
     color: #fff;
-    background: #ed3c0d;
+    background: $colorB;
     text-align: left;
     padding: 15px;
     font-weight: 600;
@@ -1131,11 +1133,11 @@ body {
   
   .contact .php-email-form input:focus,
   .contact .php-email-form textarea:focus {
-    border-color: #d43076;
+    border-color: $colorB;
   }
   
   .contact .php-email-form button[type=submit] {
-    background: #d43076;
+    background: $colorB;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1144,7 +1146,7 @@ body {
   }
   
   .contact .php-email-form button[type=submit]:hover {
-    background: #dd5a92;
+    background: $colorB;
   }
   
   @-webkit-keyframes animate-loading {

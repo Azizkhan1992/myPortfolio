@@ -79,7 +79,7 @@ export default{
             // console.log(val)
             let items = document.getElementsByClassName('resumeWr')
             // console.log(items)
-            if(val >= 1450 && val <= 2800){
+            if(val >= 1250 && val <= 3000){
                 Array.from(items).forEach(elem => {
                     elem.classList.add('open')
                 })
