@@ -25,13 +25,19 @@ const store = new Vuex.Store({
             },
             {
                 id: 3,
+                title: 'E-commerce',
+                link: 'https://v3-ecommerce.netlify.app/home',
+                img: 'ecom.png'
+            },
+            {
+                id: 4,
                 title: 'Бухара',
                 link: 'https://azizkhan1992.github.io/OurBukhara/',
                 isDesc: true,
                 img: 'b1.png'
             },
             {
-                id: 4,
+                id: 5,
                 title: 'Сегвеи',
                 description: '',
                 link: 'https://azizkhan1992.github.io/New_Segways_Vue/',
@@ -45,30 +51,11 @@ const store = new Vuex.Store({
             },
             {
                 id: 6,
-                title: 'Домашние помощники',
-                link: 'https://azizkhan1992.github.io/Home_Helpers/',
-                img: 'h1.png'
-            },
-            {
-                id: 7,
                 title: 'Бима Перевозчики',
                 link: 'https://bimacarriers.netlify.app/',
                 isDesc: true,
                 img: 'bc1.png'
-            },
-            {
-                id: 8,
-                title: 'Дом-музей',
-                link: 'https://home-museum.netlify.app/',
-                img: 'hm1.png'
-            },
-            {
-                id: 9,
-                title: 'Потоковое вещание фильмов тест Nuxt',
-                link: 'https://movies-streaming-in-nuxt.netlify.app/',
-                isDesc: true,
-                img: 'ms1.png'
-            },
+            }
         ]
     },
     actions: {},
