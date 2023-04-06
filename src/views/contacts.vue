@@ -4,7 +4,7 @@
       <div class="container">
         <div class="section-title">
           <h2>
-            Контакт</h2>
+            {{ $t('contact') }}</h2>
         </div>
 
         <div class="d-flex flex-column-reverse contactWr">
@@ -21,7 +21,7 @@
             <div class="info">
               <div class="d-flex align-items-center">
                 <i class="bi bi-geo-alt"></i>
-                <p>Ташкент, Узбекистан</p>
+                <p>{{ $t('country') }}</p>
               </div>
 
               <div class="d-flex align-items-center contactItem">

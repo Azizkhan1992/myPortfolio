@@ -8,11 +8,9 @@
           ></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h3>Фронтенд веб-разработчик</h3>
+              <h3>{{ $t('title_about') }}</h3>
               <p>
-                Меня зовут Азиз. Мне 30 лет. Я веб-разработчик
-                Работаю в направлениях frontEnd и backEnd. В интерфейсе использую
-                CSS/SCSS, Bootstrap (Vuetify, Ant-design), JavaScript (TypeScript),  Vue (middle).
+                {{ $t('desc_about') }}
               </p>
               <div class="personTitle">
                 <!-- <h2 class="commonT">{{ $t('developer') }}</h2> -->
@@ -20,37 +18,37 @@
                 <div class="titleContent mt-12">
                   <div class="titleItem">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
-                    <p class="descP">День рождения: <i>6 июль 1992</i></p>
+                    <p class="descP">{{ $t('birth_day') }}: <i>6 {{ $t('month') }} 1992</i></p>
                   </div>
 
                   <div class="titleItem">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
-                    <p class="descP">Возрасть: <i>30</i></p>
+                    <p class="descP">{{ $t('age') }}: <i>30</i></p>
                   </div>
 
                   <div class="titleItem">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
-                    <a class="descP" href="tel: +998 (93) 661-45-77">Телефон: <i>+998 (93) 661 - 45 - 77</i></a>
+                    <a class="descP" href="tel: +998 (93) 661-45-77">{{ $t('phone') }}: <i>+998 (93) 661 - 45 - 77</i></a>
                   </div>
 
                   <div class="titleItem">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
                     <p class="descP">
-                      Степень: <i>FrontEnd: middle</i> 
+                      {{ $t('step') }}: <i>{{ $t('degree') }}</i> 
                     </p>
                   </div>
 
                   <div class="titleItem">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
-                    <p class="descP">Адрес: <i>Ташкент</i></p>
+                    <p class="descP">{{ $t('address') }}: <i>{{ $t('city') }}</i></p>
                   </div>
 
-                  <div class="titleItem">
+                  <div class="titleItem titleMail">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
                     <a
                       class="descP"
                       href="mailto:azizkhannasrullayev1992@gmail.com"
-                      >Э-почта: <i>azizkhannasrullayev1992@gmail.com</i></a
+                      >{{ $t('mail') }}: <i>azizkhannasrullayev1992@gmail.com</i></a
                     >
                   </div>
                 </div>
@@ -87,6 +85,11 @@ export default {
     display: flex;
     align-items: center;
     column-gap: 12px;
+
+    &.titleMail{
+      height: fit-content;
+      word-break: break-all;
+    }
 
     p {
       font-weight: bolder;

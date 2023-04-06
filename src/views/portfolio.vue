@@ -4,7 +4,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Портфолио</h2>
+          <h2>{{ $t('portfolio') }}</h2>
         </div>
 
         <div class="row portfolio-container">
@@ -15,12 +15,12 @@
             <div class="portfolio-wrap">
               <img :src="require('../assets/Content/images/Portfolio/' + item.img)" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>{{ item.title }}</h4>
-                <p v-if="item.isDesc">Desctop</p>
+                <h4>{{ item.title[$i18n.locale] }}</h4>
+                <p v-if="item.isDesc">{{ $t('desctop') }}</p>
               </div>
               <div class="portfolio-links">
                 <!-- <a :href="item.link" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a> -->
-                <a @click="goToSite(item.link)" :title="item.title" class="pLink"><i class="bi bi-plus-square"></i></a>
+                <a @click="goToSite(item.link)" :title="item.title[$i18n.locale]" class="pLink"><i class="bi bi-plus-square"></i></a>
               </div>
             </div>
           </div>

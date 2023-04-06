@@ -3,7 +3,7 @@
     <section id="skills" class="skills section-bg">
       <div class="container">
         <div class="section-title">
-          <h2>Навыки</h2> 
+          <h2>{{ $t('skills') }}</h2> 
         </div>
 
         <div class="row skills-content" v-if="progressData.length">
@@ -11,7 +11,7 @@
             <div class="col-lg-6" :key="idx">
               <skill-progress 
                 :skill="progress.skill"
-                :skill-name="progress.name"
+                :skill-name="progress.name[$i18n.locale]"
                 :max-skill="progress.maxValue"
               ></skill-progress>
             </div>
@@ -31,37 +31,67 @@ export default {
     return {
       progressData: [
         {
-          name: 'HTML',
+          name: {
+            uz: 'HTML',
+            ru: 'HTML',
+            en: 'HTML',
+            tr: 'HTML'
+          },
           maxValue: 95,
           skill: 0,
           unique: 'html'
         },
         {
-          name: 'CSS3, SCSS, Bootstrap',
+          name: {
+            uz: 'CSS3, SCSS, Bootstrap',
+            tr: 'CSS3, SCSS, Bootstrap',
+            ru: 'CSS3, SCSS, Bootstrap',
+            en: 'CSS3, SCSS, Bootstrap'
+          },
           maxValue: 85,
           skill: 0,
           unique: 'scss'
         },
         {
-          name: 'JavaScript',
+          name: {
+            uz: 'JavaScript',
+            tr: 'JavaScript',
+            ru: 'JavaScript',
+            en: 'JavaScript'
+          },
           maxValue: 70,
           skill: 0,
           unique: 'js'
         },
         {
-          name: 'Vue, Vue Router, Vuex, Nuxt',
+          name: {
+            uz: 'Vue, Vue Router, Vuex, Nuxt',
+            ru: 'Vue, Vue Router, Vuex, Nuxt',
+            en: 'Vue, Vue Router, Vuex, Nuxt',
+            tr: 'Vue, Vue Router, Vuex, Nuxt'
+          },
           maxValue: 80,
           skill: 0,
           unique: 'vue'
         },
         {
-          name: 'РЕШЕНИЕ ПРОБЛЕМ И РАБОТА НАД СОБОЙ',
+          name: {
+            ru: 'РЕШЕНИЕ ПРОБЛЕМ И РАБОТА НАД СОБОЙ',
+            en: 'PROBLEM SOLVING AND WORK ON YOURSELF',
+            tr: 'SORUN ÇÖZMEK VE KENDİNİZ ÜZERİNDE ÇALIŞMAK',
+            uz: 'MUAMMOLARNI YECHISH VA O\'Z USTINGIZDA ISHLASH'
+          },
           maxValue: 70,
           skill: 0,
           unique: 'soft'
         },
         {
-          name: 'SOLID, DRY, KISS',
+          name: {
+            uz: 'SOLID, DRY, KISS',
+            ru: 'SOLID, DRY, KISS',
+            en: 'SOLID, DRY, KISS',
+            tr: 'SOLID, DRY, KISS'
+          },
           maxValue: 55,
           skill: 0,
           unique: 'sdk'
