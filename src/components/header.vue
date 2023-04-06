@@ -32,16 +32,9 @@
             </li>
 
             <li><a class="nav-link scrollto" href="#contact">{{ $t('contact') }}</a></li>
-          </ul>
-          <i
-            class="bi mobile-nav-toggle drop-icon"
-            :class="isDrop ? 'bi-justify' : 'bi-x-square-fill'"
-            @click="changeDrop"
-          ></i>
-        </nav>
-        <!-- .navbar -->
-
-        <div class="portfolio_language">
+            
+            <li class="lang">
+              <div class="portfolio_language">
           <div class="lang_visible" @click="isLang = !isLang">
             <span>{{ default_lang.name }}</span>
             <i class="bi bi-chevron-down"></i>
@@ -53,6 +46,19 @@
             </div>
           </div>
         </div>
+            </li>
+          </ul>
+          <i
+            class="bi mobile-nav-toggle drop-icon"
+            :class="isDrop ? 'bi-justify' : 'bi-x-square-fill'"
+            @click="changeDrop"
+          ></i>
+
+          
+        </nav>
+        <!-- .navbar -->
+
+        
       </div>
     </header>
   </header>
@@ -110,8 +116,14 @@ export default {
   column-gap: 12px;
 }
 
+// li.lang{
+//   margin-left: 12px;
+// }
+
 .portfolio_language{
   position: relative;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
 
   .lang_hidden{
     position: absolute;
@@ -160,7 +172,7 @@ export default {
   color: #0563bb !important;
 }
 .navbarActive {
-  max-height: 300px;
+  max-height: 480px;
   position: fixed !important;
   left: 0;
   top: 0;
