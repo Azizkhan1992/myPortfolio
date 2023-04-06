@@ -55,18 +55,6 @@ export default {
           unique: 'vue'
         },
         {
-          name: 'PHP',
-          maxValue: 40,
-          skill: 0,
-          unique: 'php'
-        },
-        {
-          name: 'Laravel, MySQL',
-          maxValue: 50,
-          skill: 0,
-          unique: 'laravel'
-        },
-        {
           name: 'РЕШЕНИЕ ПРОБЛЕМ И РАБОТА НАД СОБОЙ',
           maxValue: 70,
           skill: 0,

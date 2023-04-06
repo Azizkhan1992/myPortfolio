@@ -3,21 +3,16 @@
     <section id="contact" class="contact section-bg">
       <div class="container">
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>
+            Контакт</h2>
         </div>
 
         <div class="d-flex flex-column-reverse contactWr">
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
               <div class="social-links">
-                <a @click="goToLink('https://t.me/UzbNAU')" class="twitter"
-                  ><i class="bi bi-telegram"></i
-                ></a>
-                <a
-                  @click="goToLink('https://www.linkedin.com/feed/')"
-                  class="linkedin"
-                  ><i class="bi bi-linkedin"></i
-                ></a>
+                <a @click="goToLink('https://t.me/UzbNAU')" class="twitter"><i class="bi bi-telegram"></i></a>
+                <a @click="goToLink('https://www.linkedin.com/feed/')" class="linkedin"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -26,14 +21,12 @@
             <div class="info">
               <div class="d-flex align-items-center">
                 <i class="bi bi-geo-alt"></i>
-                <p>Tashkent, O'zbekiston</p>
+                <p>Ташкент, Узбекистан</p>
               </div>
 
               <div class="d-flex align-items-center contactItem">
                 <i class="bi bi-envelope"></i>
-                <a href="mailto: azizkhannasrullayev1992@gmail.com"
-                  >azizkhannasrullayev1992@gmail.com</a
-                >
+                <a href="mailto: azizkhannasrullayev1992@gmail.com">azizkhannasrullayev1992@gmail.com</a>
               </div>
 
               <div class="d-flex align-items-center contactItem">
@@ -61,6 +54,7 @@ export default {
 .Cont {
   width: 100% !important;
 }
+
 .info {
   display: flex;
   justify-content: space-between;
@@ -80,6 +74,7 @@ export default {
     color: #5a656e;
   }
 }
+
 .social-links {
   a {
     cursor: pointer;

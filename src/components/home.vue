@@ -1,11 +1,11 @@
 <template>
-    <div class="home-container">
+    <section class="home-container">
         <About/>
         <Skills/>
         <Resume/>
         <Portfolio/>
         <Contacts/>
-    </div>
+    </section>
 </template>
 <script>
 import About from '@/views/about.vue';

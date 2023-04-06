@@ -8,11 +8,11 @@
           ></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h3>Full Stack веб-разработчик</h3>
+              <h3>Фронтенд веб-разработчик</h3>
               <p>
                 Меня зовут Азиз. Мне 30 лет. Я веб-разработчик
                 Работаю в направлениях frontEnd и backEnd. В интерфейсе использую
-                CSS/SCSS, Bootstrap, JavaScript (TypeScript)/Vue (middle). Я изучаю в данное время BackEnd PHP, Laravel (junior), MySQL.
+                CSS/SCSS, Bootstrap (Vuetify, Ant-design), JavaScript (TypeScript),  Vue (middle).
               </p>
               <div class="personTitle">
                 <!-- <h2 class="commonT">{{ $t('developer') }}</h2> -->
@@ -36,7 +36,7 @@
                   <div class="titleItem">
                     <Icons icon="rightArr" color="#0563bb" stroke="#0563bb" />
                     <p class="descP">
-                      Степень: <i>FrontEnd: middle</i> <i>BackEnd: junior</i>
+                      Степень: <i>FrontEnd: middle</i> 
                     </p>
                   </div>
 

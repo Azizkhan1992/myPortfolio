@@ -25,37 +25,31 @@ const store = new Vuex.Store({
             },
             {
                 id: 3,
+                title: 'Туристическое агенство',
+                description: '',
+                link: 'https://travel-agency-v.netlify.app/',
+                img: 'tr.png'
+            },
+            {
+                id: 4,
                 title: 'E-commerce',
                 link: 'https://v3-ecommerce.netlify.app/home',
                 img: 'ecom.png'
             },
             {
-                id: 4,
+                id: 5,
+                title: 'Бима Перевозчики',
+                link: 'https://bimacarriers.netlify.app/',
+                isDesc: true,
+                img: 'bc1.png'
+            },
+            {
+                id: 6,
                 title: 'Бухара',
                 link: 'https://azizkhan1992.github.io/OurBukhara/',
                 isDesc: true,
                 img: 'b1.png'
             },
-            {
-                id: 5,
-                title: 'Сегвеи',
-                description: '',
-                link: 'https://azizkhan1992.github.io/New_Segways_Vue/',
-                img: 'ns1.png'
-            },
-            {
-                id: 5,
-                title: 'Образец организационной таблицы',
-                link: 'https://org-tables-example.netlify.app/',
-                img: 'oe.png'
-            },
-            {
-                id: 6,
-                title: 'Бима Перевозчики',
-                link: 'https://bimacarriers.netlify.app/',
-                isDesc: true,
-                img: 'bc1.png'
-            }
         ]
     },
     actions: {},

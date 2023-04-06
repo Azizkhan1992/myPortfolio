@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <section
       id="hero"
       class="d-flex flex-column align-items-center justify-content-center"
@@ -42,7 +42,7 @@
         <!-- .navbar -->
       </div>
     </header>
-  </div>
+  </header>
 </template>
 <script>
 export default {

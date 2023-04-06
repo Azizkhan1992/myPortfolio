@@ -1,5 +1,5 @@
 <template>
-  <div class="main-layout">
+  <main class="main-layout">
     <Header />
     <Home />
 
@@ -30,7 +30,7 @@
     </div>
 
     <Footer />
-  </div>
+  </main>
 </template>
 <script>
 import Header from "./header.vue";
