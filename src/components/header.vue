@@ -35,13 +35,13 @@
             
             <li class="lang">
               <div class="portfolio_language">
-          <div class="lang_visible" @click="isLang = !isLang">
+          <div class="lang_visible" @click.stop="langChecker">
             <span>{{ default_lang.name }}</span>
             <i class="bi bi-chevron-down"></i>
           </div>
 
-          <div class="lang_hidden" :class="isLang ? 'open' : 'close'">
-            <div class="lang_items" v-for="lang in languages" :key="lang.id" @click="changeLang(lang)">
+          <div class="lang_hidden" :class="getCheckLang ? 'open' : 'close'">
+            <div class="lang_items" v-show="lang.code !== $i18n.locale" v-for="lang in languages" :key="lang.id" @click="changeLang(lang)">
               <span>{{ lang.name }}</span>
             </div>
           </div>
@@ -91,6 +91,7 @@ export default {
           code: 'tr'
         }
       ],
+      active_langs: [],
       default_lang: {
         code: 'ru',
         name: 'Русский'
@@ -98,7 +99,15 @@ export default {
       isLang: false
     };
   },
+  computed: {
+    getCheckLang(){
+      return this.$store.getters.getCheckLang
+    }
+  },
   methods: {
+    langChecker(){
+      this.$store.commit('changeLang')
+    },
     changeDrop() {
       this.isDrop = !this.isDrop;
     },
@@ -127,7 +136,7 @@ export default {
 
   .lang_hidden{
     position: absolute;
-    top: 28px;
+    top: 42px;
     transform-origin: top;
     transition: 0.24s linear;
 

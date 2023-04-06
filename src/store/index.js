@@ -5,6 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
     state: {
+        isLang: false,
         social: [
             {id: 1, name: 'telegram', link: 'https://t.me/UzbNAU'}
         ],
@@ -83,8 +84,19 @@ const store = new Vuex.Store({
         ]
     },
     actions: {},
-    mutations: {},
-    getters: {}
+    mutations: {
+        changeLang(state){
+            state.isLang = !state.isLang
+        },
+        langDeactive(state){
+            state.isLang = false
+        }
+    },
+    getters: {
+        getCheckLang(state){
+            return state.isLang
+        }
+    }
 });
 
 export default store;

@@ -1,5 +1,5 @@
 <template>
-  <main class="main-layout">
+  <main class="main-layout" @click="langDeactive">
     <Header />
     <Home />
 
@@ -44,6 +44,11 @@ export default {
     return {
       circle_border: 1,
     };
+  },
+  methods: {
+    langDeactive(){
+      this.$store.commit('langDeactive')
+    }
   },
   mixins: [Scroll("scrollY")],
 
