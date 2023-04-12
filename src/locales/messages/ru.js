@@ -7,7 +7,7 @@ const ru = {
     portfolio: 'Портфолио',
     contact: 'Контакт',
     title_about: 'Фронтенд веб-разработчик',
-    desc_about: 'Меня зовут Азиз. Мне 30 лет. Я веб-разработчик. Работаю в направлениях frontEnd и backEnd. В интерфейсе использую CSS/SCSS, Bootstrap (Vuetify, Ant-design), JavaScript (TypeScript),  Vue (middle).',
+    desc_about: 'Меня зовут Азиз. Мне 30 лет. Я веб-разработчик. Работаю в направлении Frontend. В интерфейсе использую CSS/SCSS, Bootstrap (Vuetify, Ant-design), JavaScript (TypeScript),  Vue (middle).',
     birth_day: 'День рождения',
     month: 'июль',
     age: 'Возрасть',

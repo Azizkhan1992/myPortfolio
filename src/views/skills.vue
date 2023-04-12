@@ -79,7 +79,7 @@ export default {
             ru: 'РЕШЕНИЕ ПРОБЛЕМ И РАБОТА НАД СОБОЙ',
             en: 'PROBLEM SOLVING AND WORK ON YOURSELF',
             tr: 'SORUN ÇÖZMEK VE KENDİNİZ ÜZERİNDE ÇALIŞMAK',
-            uz: 'MUAMMOLARNI YECHISH VA O\'Z USTINGIZDA ISHLASH'
+            uz: 'MUAMMOLARNI YECHISH VA O\'Z USTIDA ISHLASH'
           },
           maxValue: 70,
           skill: 0,

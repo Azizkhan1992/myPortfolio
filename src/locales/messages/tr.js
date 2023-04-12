@@ -7,7 +7,7 @@ const tr = {
     portfolio: 'Portfolio',
     contact: 'İletişim',
     title_about: 'Web geliştiricisi',
-    desc_about: 'Benim adım Aziz. 30 yaşındayım. Ben bir web geliştiricisiyim. FrontEnd ve backEnd yönlerinde çalışıyorum. Kullandığım arayüzde CSS/SCSS, Bootstrap (Vuetify, Ant-design), JavaScript (TypeScript), Vue (orta).',
+    desc_about: 'Benim adım Aziz. 30 yaşındayım. Ben bir web geliştiricisiyim. FrontEnd yönerinde çalışıyorum. Kullandığım arayüzde CSS/SCSS, Bootstrap (Vuetify, Ant-design), JavaScript (TypeScript), Vue (orta).',
     birth_day: 'Doğum günü',
     month: 'Temmuz',
     age: 'Yosh',
