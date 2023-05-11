@@ -37,6 +37,18 @@ const store = new Vuex.Store({
             {
                 id: 3,
                 title: {
+                    uz: 'Pharm Forum',
+                    ru: 'Фарм Форум',
+                    en: 'Pharm Forum',
+                    tr: 'Eczacılık Forumu'
+                },
+                description: '',
+                link: 'https://uz-pharmforum.netlify.app/',
+                img: 'ph.png'
+            },
+            {
+                id: 4,
+                title: {
                     uz: 'Sayohat Agentligi',
                     ru: 'Туристическое агенство',
                     tr: 'Seyahat Acentası',
@@ -47,7 +59,7 @@ const store = new Vuex.Store({
                 img: 'tr.png'
             },
             {
-                id: 4,
+                id: 5,
                 title: {
                     uz: 'E-commerce',
                     ru: 'E-commerce',
@@ -58,7 +70,7 @@ const store = new Vuex.Store({
                 img: 'ecom.png'
             },
             {
-                id: 5,
+                id: 6,
                 title: {
                     uz: 'Bima Tashuvchilar',
                     ru: 'Бима Перевозчики',
@@ -70,7 +82,7 @@ const store = new Vuex.Store({
                 img: 'bc1.png'
             },
             {
-                id: 6,
+                id: 7,
                 title: {
                     uz: 'Buxoro',
                     ru: 'Бухара',
